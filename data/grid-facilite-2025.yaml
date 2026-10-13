@@ -1,0 +1,79 @@
+# Grille tarifaire Colissimo — contrat « Facilité » (identique à « Privilège »), France métropolitaine.
+# PRIX HT par colis. Source : « Tarifs 2025 » de La Poste (Branche Services-Courrier-Colis), document daté du 15/11/2024,
+# https://www.colissimo.entreprise.laposte.fr/media/1191/download — la grille 2026 n'était pas publiée au moment de l'écriture.
+# À REMPLACER par la grille de votre contrat (espace Colissimo Entreprise) : les tarifs se modifient ensuite dans
+# l'administration (Boutique > Transporteurs), cette grille ne sert que de valeur de départ.
+# Le suivi est inclus. Supplément « colis non mécanisable » (non géré) : 6,50 € HT par colis.
+basis: ht
+valid_from: '2025-01-01'
+zone: FR-METRO
+modes:
+  domicile:
+    name: "Colissimo Domicile"
+    description: "Livraison à domicile avec suivi, sans signature (dépôt en boîte aux lettres si le colis y entre)."
+    max_weight: 30000        # g
+    requires_pickup_point: false
+    # [poids maximal du palier en grammes, prix HT] — chaque palier commence au poids du précédent + 1 g.
+    bands:
+      - [250, 6.72]
+      - [500, 7.57]
+      - [750, 8.45]
+      - [1000, 9.17]
+      - [2000, 10.29]
+      - [3000, 11.29]
+      - [4000, 12.32]
+      - [5000, 13.30]
+      - [6000, 13.92]
+      - [7000, 14.89]
+      - [8000, 15.86]
+      - [9000, 16.87]
+      - [10000, 17.85]
+      - [11000, 18.46]
+      - [12000, 19.42]
+      - [13000, 20.37]
+      - [14000, 21.37]
+      - [15000, 22.33]
+      - [16000, 23.28]
+      - [17000, 24.24]
+      - [18000, 25.21]
+      - [19000, 26.18]
+      - [20000, 27.13]
+      - [21000, 27.83]
+      - [22000, 28.77]
+      - [23000, 29.74]
+      - [24000, 30.70]
+      - [25000, 31.62]
+      - [26000, 32.60]
+      - [27000, 33.53]
+      - [28000, 34.49]
+      - [29000, 35.48]
+      - [30000, 36.39]
+  retrait:
+    name: "Colissimo Point de retrait"
+    description: "Retrait en bureau de poste ou chez un commerçant partenaire, avec suivi. Vous choisirez le point à l'étape suivante."
+    max_weight: 20000        # g (au-delà de 20 kg : certains bureaux de poste seulement)
+    requires_pickup_point: true
+    bands:
+      - [250, 5.11]
+      - [500, 5.95]
+      - [750, 6.85]
+      - [1000, 7.57]
+      - [2000, 8.68]
+      - [3000, 9.68]
+      - [4000, 10.70]
+      - [5000, 11.69]
+      - [6000, 12.32]
+      - [7000, 13.28]
+      - [8000, 14.26]
+      - [9000, 15.26]
+      - [10000, 16.23]
+      - [11000, 16.86]
+      - [12000, 17.82]
+      - [13000, 18.77]
+      - [14000, 19.76]
+      - [15000, 20.71]
+      - [16000, 21.67]
+      - [17000, 22.63]
+      - [18000, 23.59]
+      - [19000, 24.57]
+      - [20000, 25.51]

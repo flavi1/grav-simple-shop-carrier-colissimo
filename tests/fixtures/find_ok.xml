@@ -1,0 +1,157 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:findRDVPointRetraitAcheminementResponse xmlns:ns2="http://v2.pointretrait.geopost.com/">
+            <return>
+                <errorCode>0</errorCode>
+                <errorMessage>Code retour OK</errorMessage>
+                <listePointRetraitAcheminement>
+                    <accesPersonneMobiliteReduite>true</accesPersonneMobiliteReduite>
+                    <adresse1>93 RUE DE BERNIERES</adresse1>
+                    <adresse2/>
+                    <adresse3/>
+                    <codePostal>14000</codePostal>
+                    <congesPartiel>false</congesPartiel>
+                    <congesTotal>false</congesTotal>
+                    <coordGeolocalisationLatitude>49.18</coordGeolocalisationLatitude>
+                    <coordGeolocalisationLongitude>-0.36</coordGeolocalisationLongitude>
+                    <distanceEnMetre>229</distanceEnMetre>
+                    <horairesOuvertureDimanche>00:00-00:00 00:00-00:00</horairesOuvertureDimanche>
+                    <horairesOuvertureJeudi>08:30-18:30 00:00-00:00</horairesOuvertureJeudi>
+                    <horairesOuvertureLundi>09:00-12:00 14:00-18:30</horairesOuvertureLundi>
+                    <horairesOuvertureMardi>08:30-18:30 00:00-00:00</horairesOuvertureMardi>
+                    <horairesOuvertureMercredi>08:30-18:30 00:00-00:00</horairesOuvertureMercredi>
+                    <horairesOuvertureSamedi>09:00-13:00 00:00-00:00</horairesOuvertureSamedi>
+                    <horairesOuvertureVendredi>08:30-18:30 00:00-00:00</horairesOuvertureVendredi>
+                    <identifiant>108285</identifiant>
+                    <indiceDeLocalisation/>
+                    <localite>CAEN</localite>
+                    <nom>FRANCE LOISIRS</nom>
+                    <periodeActiviteHoraireDeb>01/01</periodeActiviteHoraireDeb>
+                    <periodeActiviteHoraireFin>31/12</periodeActiviteHoraireFin>
+                    <poidsMaxi>20000</poidsMaxi>
+                    <typeDePoint>A2P</typeDePoint>
+                    <codePays>FR</codePays>
+                    <langue>FR</langue>
+                    <libellePays>FRANCE</libellePays>
+                    <loanOfHandlingTool>false</loanOfHandlingTool>
+                    <parking>false</parking>
+                    <reseau>R03</reseau>
+                    <distributionSort/>
+                    <lotAcheminement/>
+                    <versionPlanTri/>
+                </listePointRetraitAcheminement>
+                <listePointRetraitAcheminement>
+                    <accesPersonneMobiliteReduite>true</accesPersonneMobiliteReduite>
+                    <adresse1>2 RUE GEORGES LEBRET</adresse1>
+                    <adresse2/>
+                    <adresse3/>
+                    <codePostal>14000</codePostal>
+                    <congesPartiel>false</congesPartiel>
+                    <congesTotal>false</congesTotal>
+                    <coordGeolocalisationLatitude>49.18</coordGeolocalisationLatitude>
+                    <coordGeolocalisationLongitude>-0.36</coordGeolocalisationLongitude>
+                    <distanceEnMetre>127</distanceEnMetre>
+                    <horairesOuvertureDimanche>10:00-12:00 00:00-00:00</horairesOuvertureDimanche>
+                    <horairesOuvertureJeudi>08:30-18:30 00:00-00:00</horairesOuvertureJeudi>
+                    <horairesOuvertureLundi>09:00-12:00 14:00-18:30</horairesOuvertureLundi>
+                    <horairesOuvertureMardi>08:30-18:30 00:00-00:00</horairesOuvertureMardi>
+                    <horairesOuvertureMercredi>08:30-18:30 00:00-00:00</horairesOuvertureMercredi>
+                    <horairesOuvertureSamedi>09:00-13:00 00:00-00:00</horairesOuvertureSamedi>
+                    <horairesOuvertureVendredi>08:30-18:30 00:00-00:00</horairesOuvertureVendredi>
+                    <identifiant>149390</identifiant>
+                    <indiceDeLocalisation/>
+                    <localite>CAEN</localite>
+                    <nom>BUREAU DE POSTE CAEN GAMBETTA</nom>
+                    <periodeActiviteHoraireDeb>01/01</periodeActiviteHoraireDeb>
+                    <periodeActiviteHoraireFin>31/12</periodeActiviteHoraireFin>
+                    <poidsMaxi>20000</poidsMaxi>
+                    <typeDePoint>BPR</typeDePoint>
+                    <codePays>FR</codePays>
+                    <langue>FR</langue>
+                    <libellePays>FRANCE</libellePays>
+                    <loanOfHandlingTool>false</loanOfHandlingTool>
+                    <parking>false</parking>
+                    <reseau>R01</reseau>
+                    <distributionSort/>
+                    <lotAcheminement/>
+                    <versionPlanTri/>
+                </listePointRetraitAcheminement>
+                <listePointRetraitAcheminement>
+                    <accesPersonneMobiliteReduite>true</accesPersonneMobiliteReduite>
+                    <adresse1>1 PLACE X</adresse1>
+                    <adresse2/>
+                    <adresse3/>
+                    <codePostal>14000</codePostal>
+                    <congesPartiel>false</congesPartiel>
+                    <congesTotal>true</congesTotal>
+                    <coordGeolocalisationLatitude>49.18</coordGeolocalisationLatitude>
+                    <coordGeolocalisationLongitude>-0.36</coordGeolocalisationLongitude>
+                    <distanceEnMetre>90</distanceEnMetre>
+                    <horairesOuvertureDimanche>00:00-00:00 00:00-00:00</horairesOuvertureDimanche>
+                    <horairesOuvertureJeudi>08:30-18:30 00:00-00:00</horairesOuvertureJeudi>
+                    <horairesOuvertureLundi>09:00-12:00 14:00-18:30</horairesOuvertureLundi>
+                    <horairesOuvertureMardi>08:30-18:30 00:00-00:00</horairesOuvertureMardi>
+                    <horairesOuvertureMercredi>08:30-18:30 00:00-00:00</horairesOuvertureMercredi>
+                    <horairesOuvertureSamedi>09:00-13:00 00:00-00:00</horairesOuvertureSamedi>
+                    <horairesOuvertureVendredi>08:30-18:30 00:00-00:00</horairesOuvertureVendredi>
+                    <identifiant>200001</identifiant>
+                    <indiceDeLocalisation/>
+                    <localite>CAEN</localite>
+                    <nom>PRESSE FERMEE</nom>
+                    <periodeActiviteHoraireDeb>01/01</periodeActiviteHoraireDeb>
+                    <periodeActiviteHoraireFin>31/12</periodeActiviteHoraireFin>
+                    <poidsMaxi>20000</poidsMaxi>
+                    <typeDePoint>A2P</typeDePoint>
+                    <codePays>FR</codePays>
+                    <langue>FR</langue>
+                    <libellePays>FRANCE</libellePays>
+                    <loanOfHandlingTool>false</loanOfHandlingTool>
+                    <parking>false</parking>
+                    <reseau>R03</reseau>
+                    <distributionSort/>
+                    <lotAcheminement/>
+                    <versionPlanTri/>
+                </listePointRetraitAcheminement>
+                <listePointRetraitAcheminement>
+                    <accesPersonneMobiliteReduite>true</accesPersonneMobiliteReduite>
+                    <adresse1>5 RUE Y</adresse1>
+                    <adresse2/>
+                    <adresse3/>
+                    <codePostal>14000</codePostal>
+                    <congesPartiel>false</congesPartiel>
+                    <congesTotal>false</congesTotal>
+                    <coordGeolocalisationLatitude>49.18</coordGeolocalisationLatitude>
+                    <coordGeolocalisationLongitude>-0.36</coordGeolocalisationLongitude>
+                    <distanceEnMetre>300</distanceEnMetre>
+                    <horairesOuvertureDimanche>00:00-00:00 00:00-00:00</horairesOuvertureDimanche>
+                    <horairesOuvertureJeudi>08:30-18:30 00:00-00:00</horairesOuvertureJeudi>
+                    <horairesOuvertureLundi>09:00-12:00 14:00-18:30</horairesOuvertureLundi>
+                    <horairesOuvertureMardi>08:30-18:30 00:00-00:00</horairesOuvertureMardi>
+                    <horairesOuvertureMercredi>08:30-18:30 00:00-00:00</horairesOuvertureMercredi>
+                    <horairesOuvertureSamedi>09:00-13:00 00:00-00:00</horairesOuvertureSamedi>
+                    <horairesOuvertureVendredi>08:30-18:30 00:00-00:00</horairesOuvertureVendredi>
+                    <identifiant>200002</identifiant>
+                    <indiceDeLocalisation/>
+                    <localite>CAEN</localite>
+                    <nom>RELAIS PETIT COLIS</nom>
+                    <periodeActiviteHoraireDeb>01/01</periodeActiviteHoraireDeb>
+                    <periodeActiviteHoraireFin>31/12</periodeActiviteHoraireFin>
+                    <poidsMaxi>2000</poidsMaxi>
+                    <typeDePoint>A2P</typeDePoint>
+                    <codePays>FR</codePays>
+                    <langue>FR</langue>
+                    <libellePays>FRANCE</libellePays>
+                    <loanOfHandlingTool>false</loanOfHandlingTool>
+                    <parking>false</parking>
+                    <reseau>R03</reseau>
+                    <distributionSort/>
+                    <lotAcheminement/>
+                    <versionPlanTri/>
+                </listePointRetraitAcheminement>
+                <qualiteReponse>2</qualiteReponse>
+                <wsRequestId/>
+                <rdv>false</rdv>
+            </return>
+        </ns2:findRDVPointRetraitAcheminementResponse>
+    </soap:Body>
+</soap:Envelope>

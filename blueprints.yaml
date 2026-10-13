@@ -1,0 +1,73 @@
+name: Simple Shop Colissimo
+version: 1.0.0
+description: "Transporteur Colissimo pour Simple Shop : grille du contrat (modifiable dans Boutique > Transporteurs) et points de retrait."
+icon: truck
+author:
+  name: Guillon Flavien
+license: MIT
+
+dependencies:
+  - name: simple-shop
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Statut du module
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    api_fieldset:
+      type: fieldset
+      title: "Service web des points de retrait"
+      help: "Les tarifs et les modes se règlent dans Boutique > Transporteurs. Ici, seulement les identifiants fournis par Colissimo (espace Colissimo Entreprise)."
+      fields:
+        pickup_enabled:
+          type: toggle
+          label: "Proposer les points de retrait"
+          help: "Le mode « Point de retrait » n'est proposé que s'il est activé ici ET que les identifiants ci-dessous sont renseignés."
+          highlight: 0
+          default: 0
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        account_number:
+          type: text
+          label: "Numéro de compte (6 chiffres)"
+          help: "À renseigner avec le mot de passe, ou à la place de la clé d'API."
+          validate:
+            pattern: '^$|^[0-9]{6}$'
+            message: "6 chiffres"
+        password:
+          type: password
+          label: "Mot de passe du service web"
+          autocomplete: new-password
+        api_key:
+          type: text
+          label: "Clé d'API (32 caractères)"
+          help: "Alternative au couple compte + mot de passe."
+          validate:
+            pattern: '^$|^[A-Za-z0-9]{32}$'
+            message: "32 lettres ou chiffres"
+        timeout:
+          type: number
+          label: "Délai d'attente du service (secondes)"
+          default: 4
+          validate:
+            min: 1
+            max: 15
+        max_points:
+          type: number
+          label: "Nombre de points proposés au client"
+          default: 10
+          validate:
+            min: 1
+            max: 30

@@ -1,0 +1,8 @@
+enabled: true
+# Points de retrait : nécessitent les identifiants du service web Colissimo (compte + mot de passe, ou clé d'API).
+pickup_enabled: false
+account_number: ''
+password: ''
+api_key: ''
+timeout: 4           # secondes
+max_points: 10       # points proposés au client
