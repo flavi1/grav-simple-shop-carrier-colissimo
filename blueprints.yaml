@@ -12,6 +12,11 @@ dependencies:
 form:
   validation: loose
   fields:
+    contract_notice:
+      type: display
+      label: "Contrat Colissimo requis"
+      markdown: true
+      content: "> ⚠️ **Points de retrait : contrat Colissimo obligatoire.** Le service web des points de retrait ne fonctionne qu'avec un contrat professionnel **Colissimo Facilité** ou **Colissimo Entreprise Privilège**. Les identifiants (numéro de compte et mot de passe, ou clé d'application) se créent dans votre espace Colissimo Box."
     enabled:
       type: toggle
       label: Statut du module
