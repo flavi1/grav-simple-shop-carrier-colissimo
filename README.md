@@ -12,7 +12,7 @@ Transporteur Colissimo pour le plugin Grav [Simple Shop](https://github.com/flav
 ## Installation
 
 1. Dossier `user/plugins/simple-shop-carrier-colissimo/` (hébergement mutualisé : `/shared/grav-2/user/plugins/…`, déployé par
-   GitHub Actions, voir `AGENTS.md`). Requiert `simple-shop`.
+   GitHub Actions (rsync/ssh), voir `AGENTS.md`). Requiert `simple-shop`.
 2. Activer le plugin dans la configuration du site (**désactivé par défaut**).
 3. Points de retrait : un contrat professionnel **Colissimo Facilité** ou **Entreprise Privilège** est obligatoire. Saisir dans
    Plugins > Simple Shop Colissimo le numéro de compte et le mot de passe (ou la clé d'application) créés dans l'espace Colissimo Box,
