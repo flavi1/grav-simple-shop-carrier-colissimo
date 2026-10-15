@@ -77,7 +77,7 @@ assert(count($ready->findPickupPoints('retrait', ['postal-code' => '14000', 'cit
 try { $ready->findPickupPoints('domicile', ['postal-code' => '14000', 'city' => 'CAEN'], ['weight' => 340]); assert(false); } catch (CarrierUnavailable $e) { assert(true); }
 
 $modes = CarrierCatalog::build(['colissimo' => $ready], []);
-$metrics = ['subtotal' => 12.95, 'weight' => 340, 'thickness' => 29];
+$metrics = ['subtotal' => 12.95, 'weight' => 340, 'thickness' => 29, 'tax_mix' => ['reduit' => 1227]];   // un livre : la livraison suit sa TVA (5,5 %)
 $q = ShippingManager::quoteMode($modes['colissimo.domicile'], 'FR-METRO', $metrics, []);
 assert($q['price'] === 7.99);                                    // 7,57 € HT × 1,055
 $q = ShippingManager::quoteMode($modes['colissimo.retrait'], 'FR-METRO', $metrics, []);
