@@ -1,4 +1,6 @@
-enabled: true
+# Désactivé par défaut : le dossier des plugins est partagé par tous les sites ; chaque site l'active dans
+# sa configuration (user/config/plugins/simple-shop-carrier-colissimo.yaml : enabled: true, ou Admin2 > Plugins).
+enabled: false
 # Points de retrait : nécessitent les identifiants du service web Colissimo (compte + mot de passe, ou clé d'API).
 pickup_enabled: false
 account_number: ''
